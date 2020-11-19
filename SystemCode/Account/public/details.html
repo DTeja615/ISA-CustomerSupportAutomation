@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail | Account</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Project</a>
+      </div>
+    </nav>
+    <div class="container">
+      <br />
+      <br />
+      <h5 class="text-center">Account Details</h5>
+      <form>
+        <div class="form-group">
+          <label for="accnum">Account Number</label>
+          <input type="text" class="form-control" id="accnum" disabled />
+        </div>
+        <div class="form-group">
+          <label for="fourdigits">Last Four Digits On Card</label>
+          <input type="text" class="form-control" id="fourdigits" disabled />
+        </div>
+        <div class="form-group">
+          <label for="finnum">FIN Number</label>
+          <input type="text" class="form-control" id="finnum" disabled />
+        </div>
+        <div class="form-group">
+          <label for="fname">Full Name</label>
+          <input type="text" class="form-control" id="fname" />
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of Birth</label>
+          <input type="text" class="form-control" id="dob" />
+        </div>
+        <div class="form-group">
+          <label for="add">Address</label>
+          <input type="text" class="form-control" id="add" />
+        </div>
+        <div class="form-group">
+          <label for="phn">Phone Number</label>
+          <input type="text" class="form-control" id="phn" />
+        </div>
+        <button type="submit" id="btnsubmit" class="btn btn-primary">
+          Update
+        </button>
+      </form>
+    </div>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      let accountNumber = localStorage.getItem("account");
+
+      let accnum = document.getElementById("accnum");
+      let fourdigits = document.getElementById("fourdigits");
+      let finnum = document.getElementById("finnum");
+      let fname = document.getElementById("fname");
+      let dob = document.getElementById("dob");
+      let add = document.getElementById("add");
+      let phn = document.getElementById("phn");
+
+      populateData();
+
+      async function populateData() {
+        let accountDetails = await fetch("./api/accounts/" + accountNumber);
+        accountDetails = await accountDetails.json();
+
+        accnum.value = accountNumber;
+        fourdigits.value = accountDetails.last_4_digits_on_your_card;
+        finnum.value = accountDetails.fin_number;
+        fname.value = accountDetails.full_name;
+        dob.value = new Date(accountDetails.date_of_birth).toLocaleDateString();
+        add.value = accountDetails.address;
+        phn.value = accountDetails.phone_number;
+      }
+
+      document.getElementById("btnsubmit").onclick = async function (e) {
+        e.preventDefault();
+        let fname = document.getElementById("fname").value;
+        let dob = document.getElementById("dob").value;
+        let add = document.getElementById("add").value;
+        let phn = document.getElementById("phn").value;
+
+        const data = {
+          full_name: fname,
+          date_of_birth: dob,
+          address: add,
+          phone_number: phn,
+        };
+        const result = await fetch("./api/accounts/" + accountNumber, {
+          method: "PUT",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+
+        const content = await result.json();
+        console.log(content);
+        localStorage.setItem("account", content.account_number);
+        location.href = "/submitdetails.html";
+      };
+    </script>
+  </body>
+</html>

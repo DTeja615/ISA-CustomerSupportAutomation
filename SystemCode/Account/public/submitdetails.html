@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Updated Details | Account</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Project</a>
+      </div>
+    </nav>
+    <div class="container">
+      <br />
+      <br />
+      <h5 class="text-center">Updated Account Details</h5>
+      <h4 for="accnum">Account Number</h4>
+      <p id="accnum"></p>
+      <h4 for="fourdigits">Last Four Digits On Card</h4>
+      <p id="fourdigits"></p>
+      <h4 for="finnum">FIN Number</h4>
+      <p id="finnum"></p>
+      <h4 for="fname">Full Name</h4>
+      <p id="fname"></p>
+      <h4 for="dob">Date of Birth</h4>
+      <p id="dob"></p>
+      <h4 for="add">Address</h4>
+      <p id="add"></p>
+      <h4 for="phn">Phone Number</h4>
+      <p id="phn"></p>
+    </div>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      let accountNumber = localStorage.getItem("account");
+
+      let accnum = document.getElementById("accnum");
+      let fourdigits = document.getElementById("fourdigits");
+      let finnum = document.getElementById("finnum");
+      let fname = document.getElementById("fname");
+      let dob = document.getElementById("dob");
+      let add = document.getElementById("add");
+      let phn = document.getElementById("phn");
+
+      populateData();
+
+      async function populateData() {
+        let accountDetails = await fetch("./api/accounts/" + accountNumber);
+        accountDetails = await accountDetails.json();
+        console.log(accountDetails);
+        accnum.innerHTML = accountNumber;
+        fourdigits.innerHTML = accountDetails.last_4_digits_on_your_card;
+        finnum.innerHTML = accountDetails.fin_number;
+        fname.innerHTML = accountDetails.full_name;
+        dob.innerHTML = new Date(
+          accountDetails.date_of_birth
+        ).toLocaleDateString();
+        add.innerHTML = accountDetails.address;
+        phn.innerHTML = accountDetails.phone_number;
+      }
+    </script>
+  </body>
+</html>

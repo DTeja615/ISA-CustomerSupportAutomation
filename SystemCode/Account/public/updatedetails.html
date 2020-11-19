@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Details</title>
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('./assets/img/portfolio/fullsize/8.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+  <P1>Account Details :</P1><br></br>
+  <form>
+    <label for="accnum">Account Number :</label>  
+    <input type="text" id="accnum" name="accnum" value="3467589263" readonly><br></br>
+    <label for="fourdigits">Last Four Digits On Card :</label>  
+    <input type="text" id="fourdigits" name="fourdigits" value="6789" readonly><br></br>
+    <label for="finnum">FIN Number :</label>  
+    <input type="text" id="finnum" name="finnum" value="G3456789K" readonly><br></br>
+    <label for="fname">Full Name:</label><br>
+    <input type="text" id="fname" name="fname" value="Yalavarti Dharma Teja"><br></br>
+    <label for="dob">Date of Birth:</label><br>
+    <input type="text" id="dob" name="dob" value="3/6/1989"><br></br>
+    <label for="add">Address:</label><br>
+    <input type="text" id="add" name="add" value="8-15891 560131"><br></br>
+    <label for="phn">Phone Number:</label><br>
+    <input type="text" id="phn" name="phn" value="11111111"><br><br></br>
+  </form>
+  <button id="btnsubmit" type="button">Submit</button><br /><br />
+
+  <script type="text/javascript">
+    document.getElementById("btnsubmit").onclick = function () {
+      location.href = "submitdetails.html";
+    };
+
+  </script>
+
+</body>
+
+</html>

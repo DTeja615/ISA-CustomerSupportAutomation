@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enter Account Number</title>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+
+    #btnUpdateMarks {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('./assets/img/portfolio/fullsize/8.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+  <input type="text" id="accountnumber" placeholder="Enter Account Number" />
+  <button id="btnSubmit" type="button">Submit</button><br /><br />
+
+  <script type="text/javascript">
+    document.getElementById("btnSubmit").onclick = function () {
+      location.href = "updatedetails.html";
+    };
+    
+  </script>
+</body>
+
+</html>

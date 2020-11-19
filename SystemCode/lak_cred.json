@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lakshmi2020ipa",
+  "private_key_id": "72a164ef574335bb15cbd13831fbadb505f6b6b9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDMZ6TYLB1XQU0P\nCUWBTUy7mLior+/fxPLFJOIGoa5/M3+e2slKHoJKROnoUF7jXBsJbXCCf/ny2uMd\nToK//lkCbxe9H8hFxgpwJF212Y+hpHhoy5o6iTv0UgMmXUQM/bIyLTkz3cNEev1X\ne6ABsrKwuNRNTMlhNpVAcWozHsPPwzFQ6IFt/XNUmk/tr8sHWqPVd+olS+cGJZmT\ngwaOyRkN5lmxYJ2busbP6B6wbIWQ57u5ntDiz0nOJrtARDceoj+LLHGJKyogyECm\n1FTnIl3e8V53m7FAcKkrGpmnMkzI6EzABs6b3d6ixEOSZ2TgbDh06uvjOS8GILjZ\nj6tn7qJDAgMBAAECggEAFrn/WLmu7stSkgq/MPKInDhixP6qy6p42PU83EKQcDwo\nQwqjDsai8zcDpXzU0AVRoZQKymJdnA7nlD6XyFkInyioRF2K8EG7WgnxEWMF1pG+\n1t1XDI3C82tFm7e1n+wlKpxfRnuwVlDbvM+rVAUBBn0bvcHSh33WImV5yq1FADh0\nqNltEyVubzRY+qKkFuMN7xjByA1mFtJEu/SXHQU8WdCLFUB+IIQlGCzDOX6xc3Yr\n2l9jO38trpRcn9rlvZMkPVh5iPeBoihmwKCkN+xMw7HavOWMdYdjVQmjBpRq269U\nHH/jUQjmeM6MM8Hdfd2Jg0ZyV2hTrAou5wm7QihLQQKBgQD1ahsl2kO/25jhQPMO\nn7yPWFD08HGoMqEGyb/D8QDAVA/+ZD6+bJ8dZfvGC/4G6J4BELLTe7B07WkYN0KQ\nU3y0TYnVgOQf/bHQnHIf7m8UHt8GDRSSk2g8gC9WZz6WDHC9UDWiceFbUkKfrp+W\nPfaVa4NgFYu6SAUmN5mXvQhQWQKBgQDVOLSCh+EudiTi7ej0SEMsuaBYcINefBhh\nYj0iDOIb9NQrmSye7RKQe1SkHyQk7FFvgPGx+h/eF1XcCUHpY3NthluuTCn/ueY0\nI2tbyPLUpD+OwG3G1G8HSIN0hYjELTx/bB3QpWlZDGgrL8gjVlN2gb86LwS2B5Y/\nEVU6pTNT+wKBgQC6ZgICqRoGMhOXGw7BT8AXHBw5PhsFhpbZogi+GWHZsr+HF7q0\nRapA2QH3NYqW0r2Xz4gTqwGmfd/x3Z74IgE4rSAAgupCBh21de4UpLPHk38PiIXU\nopNsSGwr8zUNIJvMnoxuOpLRGtSxlh9uLNgKO2PIafT74tHOajKFlrUm2QKBgBMI\nXsSQEH+vOBexmOvFT4m8gB2k3XUfqqV2uXJCqCRKtG233I3LJ68R8zo7NWS+W36S\nigCTDSkr+BQOF34XzIPoTGLAlbcoBu58gubMhzCIAMxjTOlEqSyDQoiyKsUoLJBL\nPFYVjdPPEbVZLIpK+GRJrKIq9EazYqv6hhsYB/7lAoGAYVTsWG96PgI0lco2U0Dl\nI6TLDOgSoTDTijLaCJ3a3cXMVszVCLGUP8wRsbCX30dDKyX3/3Q3nhj85lUAK/SR\nYaae2fdgDLIWcTCiRgHCeueuSIgprr96tCpcX4IdfEu9ItE1EMJrCWKmy/tA1AHb\n+Xc1un1TR7pd3UyVQ/27kIc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "lakshmi2020ipa-sa@lakshmi2020ipa.iam.gserviceaccount.com",
+  "client_id": "111084500789259507551",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lakshmi2020ipa-sa%40lakshmi2020ipa.iam.gserviceaccount.com"
+}
