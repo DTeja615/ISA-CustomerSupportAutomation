@@ -1,7 +1,7 @@
 
 
-Unzip Project.zip into a location without whitespace eg. folder path names should not contain spaces like /cc rpa/Project
- it should be /cc_rpa/Project
+Unzip Project.zip into a location without whitespace eg. folder path names should not contain spaces like /Customer Support Automation/Project
+ it should be /CustomerSupportAutomation/Project
 
 navigate to Account folder
 1) for First Time Only
