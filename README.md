@@ -31,5 +31,11 @@ Yalavarti Dharma Teja
 
 Essential libraries are contained in the requirement.txt file in each folder, please check it.
 
+# Instructions & Functions display
+
+Please check the readme.txt in SystemCode folder and the UserGuide.pdf in ProjectReport folder.
+
+Some functions display are shown below.
+
 
 
