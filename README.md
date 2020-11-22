@@ -35,6 +35,7 @@ Essential libraries are contained in the requirement.txt file in each folder, pl
 
 Please check the readme.txt in SystemCode folder and the UserGuide.pdf in ProjectReport folder.
 
+
 Some functions display are shown below:
 
 
@@ -42,13 +43,11 @@ The processing of virtual assistance:
 
 ![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/The%20processing%20of%20virtual%20assistance.jpg)
 
-Database after updated information:
-
-![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/database%20after%20update.PNG)
 
 Chatbot Function:
 
 ![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Chatbot%20Function.png)
+
 
 Automatically arrange zoom meeting:
 
