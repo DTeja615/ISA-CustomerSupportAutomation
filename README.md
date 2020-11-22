@@ -6,13 +6,13 @@ This is a project help the company to automate the procecess of customer support
 
 ## Summary
 
-we use our RPA tool to achieve the following objectives:
+We use our RPA tools to achieve the following objectives:
 
-1.Customers can update information by emails.
+* Customers can update information by emails.
 
-2.Customers can update information through dialogue robots.
+* Customers can update information through dialogue robots.
 
-3.Implement the function of Zoom meeting to automatically create and notify customers, based on the time given by the customers.
+* Implement the function of Zoom meeting to automatically create and notify customers, based on the time given by the customers.
 
 
 ## [Introduction Video](https://www.youtube.com/watch?v=T3ABiGUa1FQ&t=42s)
@@ -39,20 +39,20 @@ Please check the readme.txt in SystemCode folder and the UserGuide.pdf in Projec
 Some functions display are shown below:
 
 
-The processing of virtual assistance:
+* The processing of virtual assistance:
 
 ![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/The%20processing%20of%20virtual%20assistance.jpg)
 
 
 
-Chatbot Function:
+* Chatbot Function:
 
 ![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Chatbot%20Function.png)
 
 
 
 
-Automatically arrange zoom meeting:
+* Automatically arrange zoom meeting:
 
 ![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Automatically%20arrange%20zoom%20meeting.png)
 
