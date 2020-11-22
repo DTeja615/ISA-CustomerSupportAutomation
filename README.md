@@ -17,7 +17,7 @@ we use our RPA tool to achieve the following objectives:
 
 ## [Introduction Video](https://www.youtube.com/watch?v=T3ABiGUa1FQ&t=42s)
 
-# Team members:
+## Team members:
 
 Zhan Sheng
 
@@ -31,11 +31,28 @@ Yalavarti Dharma Teja
 
 Essential libraries are contained in the requirement.txt file in each folder, please check it.
 
-# Instructions & Functions display
+## Instructions & Functions display
 
 Please check the readme.txt in SystemCode folder and the UserGuide.pdf in ProjectReport folder.
 
-Some functions display are shown below.
+Some functions display are shown below:
+
+
+The processing of virtual assistance:
+
+![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/The%20processing%20of%20virtual%20assistance.jpg)
+
+Database after updated information:
+
+![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/database%20after%20update.PNG)
+
+Chatbot Function:
+
+![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Chatbot%20Function.png)
+
+Automatically arrange zoom meeting:
+
+![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Automatically%20arrange%20zoom%20meeting.png)
 
 
 
