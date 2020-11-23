@@ -1,8 +1,8 @@
 # ISA-CustomerSupportAutomation
 
-This CustomerSupportAutomation is a project for Intelligent Agent System in National University of Singapore.
+This CustomerSupportAutomation is a project done as part of Intelligent Software Agents course at National University of Singapore.
 
-This is a project help the company to automate the procecess of customer support based on RPA tools. (UIpath,Tagui)
+This is a project to help the company automate the procecess of customer support based on RPA tools. (UIpath,Tagui)
 
 ## Summary
 
