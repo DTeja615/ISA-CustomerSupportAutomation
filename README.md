@@ -1,4 +1,4 @@
-# ISA-CustomerSupportAutomation
+# ISA-Customer Support Automation
 
 This CustomerSupportAutomation is a project done as part of Intelligent Software Agents course at National University of Singapore.
 
