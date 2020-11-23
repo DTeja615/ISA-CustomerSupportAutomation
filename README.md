@@ -19,13 +19,13 @@ We use our RPA tools to achieve the following objectives:
 
 ## Team members:
 
-Zhan Sheng
+Zhan Sheng (A0215253N)
 
-Wu Jingxuan
+Wu Jingxuan (A0215262N)
 
-Lakshmi Subramanian
+Lakshmi Subramanian (A0215255L)
 
-Yalavarti Dharma Teja
+Yalavarti Dharma Teja (A0215457A)
 
 ## Libraries
 
