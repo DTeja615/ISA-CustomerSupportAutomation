@@ -49,14 +49,16 @@ Some functions display are shown below:
 
 ![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Chatbot%20Function.png)
 
+* RPA bot handling the customer emails:
 
+![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Customer%20emails.PNG)
 
 
 * Automatically arrange zoom meeting:
 
 ![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Automatically%20arrange%20zoom%20meeting.png)
 
-## Some feeling and the conclusion
+## Conclusion
 
 The whole team spent a great time on this project. The project was done as expected. The RPA robot can detect the key words in the subject line in the mailbox and make different actions, including sending error or confirmation messages to customers, updating customers’ information in the database, and scheduling a zoom meeting for customers. In addition, the virtual assistant provides an easier way to update customers’ information in the database. 
 
