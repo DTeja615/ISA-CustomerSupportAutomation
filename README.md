@@ -1,8 +1,8 @@
-# ISA-CustomerSupportAutomation
+# ISA-Customer Support Automation
 
-This CustomerSupportAutomation is a project for Intelligent Agent System in National University of Singapore.
+This CustomerSupportAutomation is a project done as part of Intelligent Software Agents course at National University of Singapore.
 
-This is a project help the company to automate the procecess of customer support based on RPA tools. (UIpath,Tagui)
+This is a project to help the company automate the procecess of customer support based on RPA tools. (UIpath,Tagui)
 
 ## Summary
 
@@ -19,13 +19,13 @@ We use our RPA tools to achieve the following objectives:
 
 ## Team members:
 
-Zhan Sheng
+Zhan Sheng (A0215253N)
 
-Wu Jingxuan
+Wu Jingxuan (A0215262N)
 
-Lakshmi Subramanian
+Lakshmi Subramanian (A0215255L)
 
-Yalavarti Dharma Teja
+Yalavarti Dharma Teja (A0215457A)
 
 ## Libraries
 
@@ -49,12 +49,19 @@ Some functions display are shown below:
 
 ![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Chatbot%20Function.png)
 
+* RPA bot handling the customer emails:
 
+![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Customer%20emails.PNG)
 
 
 * Automatically arrange zoom meeting:
 
 ![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Automatically%20arrange%20zoom%20meeting.png)
 
+## Conclusion
+
+The whole team spent a great time on this project. The project was done as expected. The RPA robot can detect the key words in the subject line in the mailbox and make different actions, including sending error or confirmation messages to customers, updating customers’ information in the database, and scheduling a zoom meeting for customers. In addition, the virtual assistant provides an easier way to update customers’ information in the database. 
+
+As the development of technologies, robot processing automation is more common in our lives and work. It is a good assistant to facilitate our work, and does not require expensive system maintenance. In the future, more RPA functions would be added into this project to make office work easier and more efficient, which allows employees to spend more time improving their professional capabilities. 
 
 
