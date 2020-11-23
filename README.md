@@ -56,5 +56,10 @@ Some functions display are shown below:
 
 ![image](https://github.com/lakshmi4296/ISA-CustomerSupportAutomation/blob/main/Automatically%20arrange%20zoom%20meeting.png)
 
+## Some feeling and the conclusion
+
+The whole team spent a great time on this project. The project was done as expected. The RPA robot can detect the key words in the subject line in the mailbox and make different actions, including sending error or confirmation messages to customers, updating customers’ information in the database, and scheduling a zoom meeting for customers. In addition, the virtual assistant provides an easier way to update customers’ information in the database. 
+
+As the development of technologies, robot processing automation is more common in our lives and work. It is a good assistant to facilitate our work, and does not require expensive system maintenance. In the future, more RPA functions would be added into this project to make office work easier and more efficient, which allows employees to spend more time improving their professional capabilities. 
 
 
